@@ -1,6 +1,6 @@
 # BakeWithCrystal 🍰
 
-A clean, responsive **single‑page website** for **Bake with Crystal**, a premium brand specializing in **cakes, snacks, and small chops**.
+A clean, responsive, single‑page website for Bake with Crystal; a premium brand specializing in cakes, snacks, and small chops.
 
 ## ✨ Features
 - Elegant, premium UI (brown & gold theme)
@@ -15,7 +15,7 @@ A clean, responsive **single‑page website** for **Bake with Crystal**, a premi
 - CSS3
 
 ## 📌 Live Demo
-
+https://bakewithcrystal.netlify.app/
 
 ## 🚀 Getting Started
 ```bash
@@ -36,5 +36,4 @@ Open `index.html` in your browser.
 Phone / WhatsApp: 08086658180  
 GitHub: https://github.com/John-Uko
 
-## 📄 License
-MIT License
+Developer: John Uko.
