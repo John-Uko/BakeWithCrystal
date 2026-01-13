@@ -31,9 +31,7 @@
   header{position: sticky; top: 0; z-index: 1000; background-color:#fff; border-bottom: 2px solid var(--cream); padding-bottom: 10px; display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:18px}
   .brand{display:flex; align-items:center; gap:12px}
   .logo{
-    width:64px; height:64px; border-radius:12px; background:linear-gradient(135deg,var(--primary),var(--highlight));
-    display:flex; align-items:center; justify-content:center; color:var(--accent); font-weight:700; font-size:18px;
-    box-shadow:var(--shadow);
+    width:64px; height:64px; border: 2px solid var(--primary); border-radius: 50%; box-shadow:var(--shadow);
   }
   .brand h1{margin:0; font-size: var(--font-large); color:var(--accent)}
   .tag{font-size: var(--font-small); color:#6b6b6b}
