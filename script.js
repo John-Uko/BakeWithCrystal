@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
       const notes = encodeURIComponent(document.getElementById('notes').value || '');
       const fee = (mode === 'delivery') ? DEFAULT_DELIVERY_FEE : 0;
 
-      let message = `Hello Bake with Crystal,%0A%0AMy name: ${name}%0APhone: ${phone}%0AOrder: ${item}%0ADate: ${date} ${time}%0AType: ${mode}%0AAddress: ${address}%0ANotes: ${notes}%0A%0AThank you.`;
+      let message = `Hello Bake with Crystal,%0A%0AMy name: ${name}%0APhone number: ${phone}%0AMy order: ${item}%0ADelivery date/time: ${date} / ${time}%0APickup/Delivery: ${mode}%0AAddress: ${address}%0ANotes: ${notes}%0A%0AThank you.`;
       const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${message}`;
       window.open(url, '_blank');
     });
