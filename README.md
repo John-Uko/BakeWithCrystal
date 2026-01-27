@@ -1,20 +1,20 @@
 # BakeWithCrystal 🍰
 
-A clean, responsive, single‑page website for Bake with Crystal; a premium brand specializing in cakes, snacks, and small chops.
+A clean, responsive, single‑page website for Bake with Crystal; a homemade brand specializing in cakes, snacks, and pasteries.
 
 ## ✨ Features
-- Elegant, premium UI (brown & gold theme)
+- Elegant, premium UI (off-white, purple & gold theme)
 - Mobile‑first & fully responsive
 - Sticky navigation bar
 - Lazy‑loaded images for performance
-- CSS animations & hover effects
 - WhatsApp & call‑to‑order integration
 
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3
+- Javascript
 
-## 📌 Live Demo
+## 📌 Live link
 https://bakewithcrystal.netlify.app/
 
 ## 🚀 Getting Started
@@ -28,6 +28,7 @@ Open `index.html` in your browser.
 ```
 ├── index.html
 ├── style.css
+├──script.js
 └── README.md
 ```
 

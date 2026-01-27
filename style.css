@@ -1,8 +1,8 @@
 :root{
-    --primary:#FFB88C;
+    --primary: #DA9100;
     --accent:#6B3E2B;
-    --cream:#FFF4E6;
-    --highlight:#F6C1C1;
+    --cream:#F2F0EF;
+    --highlight:#B666D2;
     --text:#4A4A4A;
     --width: 100%;
     --max-width:1100px;
@@ -17,9 +17,9 @@
   html,body{height:100%}
   body{
     margin:0;
-    font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    font-family: "Bricolage Grotesque", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
     color:var(--text);
-    background:linear-gradient(180deg, #fff 0%, var(--cream) 100%);
+    background:linear-gradient(180deg, var(--cream) 0%, #fff 100%);
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing:grayscale;
     line-height:1.45;
@@ -28,33 +28,35 @@
   img{max-width:100%; display:block; border-radius:8px}
   
   .container{max-width:var(--max-width); margin:28px auto; padding:0 20px;}
-  header{position: sticky; top: 0; z-index: 1000; background-color:#fff; border-bottom: 2px solid var(--cream); padding-bottom: 10px; display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:18px}
+  header{position: sticky; top: 0; z-index: 1000; background-color: var(--cream); border-bottom: 2px solid var(--primary); padding-bottom: 10px; display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:18px; border-radius: 5px}
   .brand{display:flex; align-items:center; gap:12px}
   .logo{
-    width:64px; height:64px; border: 2px solid var(--primary); border-radius: 50%; box-shadow:var(--shadow);
+    width:64px; height:64px; border: 2px solid var(--primary); border-radius: 50%; box-shadow:var(--shadow); margin: 10px;
   }
-  .brand h1{margin:0; font-size: var(--font-large); color:var(--accent)}
+  .brand h1{margin:0; font-family: "Merienda", "Poetsen One", "Bricolage Grotesque" system-ui; font-size: var(--font-large); color:var(--accent); font-weight: 900}
   .tag{font-size: var(--font-small); color:#6b6b6b}
   
   .actions{display:flex; gap:10px; align-items:center}
+  .actions1{display: flex; gap: 5px; align-items: center; margin: auto 30px}
   .btn{
     background:var(--accent); color:#fff; padding:10px 14px; border-radius:10px; font-weight:600; display:inline-flex; gap:8px; align-items:center;
     box-shadow:0 6px 14px rgba(107,62,43,0.12); font-size: var(--btn)
   }
+  .btn1{padding: 10px 14px; box-shadow: rgba(107,62,43,0.12); display: inline-flex; gap: 5px; align-items: center;}
   .btn.secondary{background:transparent; color:var(--accent); border:2px solid rgba(107,62,43,0.08)}
   .whatsapp{background:#25D366; color:#fff;}
   .checkout{font-size: var(--btn);}
   
   .hero{
-    background:linear-gradient(90deg, rgba(255,184,140,0.08), rgba(246,193,193,0.04));
+    background:linear-gradient(90deg, rgba(220, 159, 255, 0.08), rgba(167, 35, 255, 0.04));
     border-radius:16px; padding:22px; display:grid; grid-template-columns:1fr 360px; gap:18px; align-items:center; box-shadow:var(--shadow);
   }
   .hero h2{margin:0 0 8px 0; font-size: var(--font-large); color:var(--accent)}
-  .hero p{margin:0 0 14px 0; color:#5b5b5b; font-size: var(--font-small)}
+  .hero p{margin:0 0 14px 0; color:#5b5b5b; font-size: var(--font-small); font-weight: 400;}
   .hero .hero-ctas{display:flex; gap:10px; flex-wrap:wrap}
   .hero .phone{font-weight:700; color:var(--accent)}
   
-  .section{margin-top:28px; font-size: var(--font-small)}
+  .section{margin-top:28px; font-size: var(--font-small); font-weight: 400;}
   .section h3{margin:0 0 12px 0; color:var(--accent)}
   .grid{display:grid; gap:14px}
   .grid.cols-3{grid-template-columns:repeat(3,1fr)}
@@ -67,20 +69,23 @@
   .gallery img{height:140px; object-fit:cover; border-radius:10px} */
   
   form{background:#fff; padding:16px; border-radius:12px; box-shadow:var(--shadow)}
-  label{display:block; font-size: var(--font-small); margin-bottom:6px; color:#555}
+  label{display:block; font-size: var(--font-small); margin-bottom:6px; color:#555; font-weight: 400;}
   input[type="text"], input[type="tel"], input[type="date"], input[type="time"], select, textarea{
     width:100%; padding:10px; border-radius:8px; border:1px solid #eee; margin-bottom:12px; font-size: var(--font-small);
   }
   .row{display:flex; gap:12px}
   .row .col{flex:1}
-  .small{font-size:var(--font-small); color:#666}
+  .small{font-size:var(--font-small); color:#666; font-weight: 400;}
   .brand1{
-    color: var(--accent);
+    color: var(--primary);
     font-weight:700
   }
   
-  footer{margin-top:28px; padding:18px 0; text-align:center; color:#666; font-size: var(--font-small)}
-  
+  footer{margin-top:28px; padding:18px 0; text-align:center; color:#666; font-size: var(--font-small); font-weight: 400;}
+  .footer-logo{display: flex; align-items: center; justify-items: center; gap: 10px; margin: 0 45%;}
+  .footer-logo1{width: 40px; height: 40px}
+  .footer-logo2{width: 30px; height: 30px}
+
 /* Media query for mobile responsiveness */
 
 @media (min-width: 200px) and (max-width: 480px){
@@ -91,6 +96,9 @@
     .grid.cols-3{grid-template-columns:repeat(2,1fr)}
     .grid.cols-4{grid-template-columns:repeat(2,1fr)}
     .card{display: grid;}
+    .footer-logo1{width: 600px; height: 50px}
+    .footer-logo2{width: 600px; height: 50px}
+    .actions1{margin: auto; padding: auto}
 }
 @media (min-width: 481px) and (max-width:690px){
     .hero{grid-template-columns:1fr}
