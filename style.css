@@ -83,8 +83,7 @@
   
   footer{margin-top:28px; padding:18px 0; text-align:center; color:#666; font-size: var(--font-small); font-weight: 400;}
   .footer-logo{display: flex; align-items: center; justify-items: center; gap: 10px; margin: 0 45%;}
-  .footer-logo1{width: 40px; height: 40px}
-  .footer-logo2{width: 30px; height: 30px}
+  
 
 /* Media query for mobile responsiveness */
 
@@ -96,9 +95,8 @@
     .grid.cols-3{grid-template-columns:repeat(2,1fr)}
     .grid.cols-4{grid-template-columns:repeat(2,1fr)}
     .card{display: grid;}
-    .footer-logo1{width: 600px; height: 50px}
-    .footer-logo2{width: 600px; height: 50px}
     .actions1{margin: auto; padding: auto}
+
 }
 @media (min-width: 481px) and (max-width:690px){
     .hero{grid-template-columns:1fr}
