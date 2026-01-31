@@ -96,6 +96,7 @@
     .grid.cols-4{grid-template-columns:repeat(2,1fr)}
     .card{display: grid;}
     .actions1{margin: auto; padding: auto}
+    
 
 }
 @media (min-width: 481px) and (max-width:690px){
