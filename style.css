@@ -88,7 +88,7 @@
 /* Media query for mobile responsiveness */
 
 @media (min-width: 200px) and (max-width: 480px){
-    header{flex-direction:column; align-items:flex-start}
+    header{flex-direction:column; align-items:flex-start; position: relative; border-bottom: 1px solid var(--primary)}
     .actions{width:100%; justify-content:space-between;}
     .gallery img{height:110px}
     .hero{grid-template-columns:1fr}
@@ -96,8 +96,6 @@
     .grid.cols-4{grid-template-columns:repeat(2,1fr)}
     .card{display: grid;}
     .actions1{margin: auto; padding: auto}
-    
-
 }
 @media (min-width: 481px) and (max-width:690px){
     .hero{grid-template-columns:1fr}
