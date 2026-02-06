@@ -31,7 +31,7 @@
   header{position: sticky; top: 0; z-index: 1000; background-color: var(--cream); border-bottom: 2px solid var(--primary); padding-bottom: 10px; display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:18px; border-radius: 5px}
   .brand{display:flex; align-items:center; gap:12px}
   .logo{
-    width:64px; height:64px; border: 2px solid var(--primary); border-radius: 50%; box-shadow:var(--shadow); margin: 10px;
+    width:64px; height:64px; border: 1px solid var(--primary); border-radius: 50%; box-shadow:var(--shadow); margin: 10px;
   }
   .brand h1{margin:0; font-family: "Merienda", "Poetsen One", "Bricolage Grotesque" system-ui; font-size: var(--font-large); color:var(--accent); font-weight: 900}
   .tag{font-size: var(--font-small); color:#6b6b6b}
